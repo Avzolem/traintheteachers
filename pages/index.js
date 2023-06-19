@@ -95,9 +95,16 @@ const tiers = [
 ];
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    question: "¿Qué es lo mejor de México?",
+    answer: "No sé, pero qué buenos son sus tacos. 🌮",
+  },
+  {
+    question: "¿Qué día sale sabadazo?",
+    answer: "Los sábados.",
+  },
+  {
+    question: "¿Qué día salía 'Siempre en Domingo'?",
+    answer: "Los domingos.",
   },
   // More questions...
 ];
@@ -475,7 +482,7 @@ export default function Example() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
-              Frequently asked questions
+              Preguntas frecuentes
             </h2>
             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
               {faqs.map((faq) => (
