@@ -152,7 +152,11 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Train the teachers</span>
-              <img className="h-8 w-auto" src="/images/logo-white.png" alt="" />
+              <img
+                className="h-10 w-auto"
+                src="/images/logo-white.png"
+                alt=""
+              />
             </a>
           </div>
           <div className="flex lg:hidden">
