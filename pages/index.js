@@ -142,7 +142,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-100">
       {/* Header */}
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
@@ -193,7 +193,7 @@ export default function Example() {
           onClose={setMobileMenuOpen}
         >
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Train the teachers</span>
@@ -442,7 +442,7 @@ export default function Example() {
         {/* Courses section */}
         <div
           id="cursos"
-          className=" relative isolate mt-32 bg-white px-6 sm:mt-56 lg:px-8"
+          className=" relative isolate mt-32 bg-gray-100 py-4 px-6 sm:mt-56 lg:px-8"
         >
           <div
             className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
