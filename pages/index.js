@@ -18,7 +18,7 @@ import {
 } from "@heroicons/react/20/solid";
 
 const navigation = [
-  { name: "Acerca de", href: "#" },
+  { name: "Acerca de", href: "#about" },
   { name: "¿Cómo funciona?", href: "#" },
   { name: "Cursos destacados", href: "#cursos" },
   { name: "Gestiona tus insignias", href: "#" },
@@ -331,8 +331,8 @@ export default function Example() {
           </div>
         </div>
 
-        {/* Feature section */}
-        <div id="features" className="mt-32 sm:mt-56">
+        {/* About section */}
+        <div id="about" className="mt-32 sm:mt-56">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
               <p className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
