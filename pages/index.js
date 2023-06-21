@@ -20,8 +20,7 @@ import {
 const navigation = [
   { name: "Acerca de", href: "#" },
   { name: "¿Cómo funciona?", href: "#" },
-  { name: "Cursos y talleres", href: "#cursos" },
-  { name: "Solicita un curso", href: "#" },
+  { name: "Cursos destacados", href: "#cursos" },
   { name: "Gestiona tus insignias", href: "#" },
 ];
 const features = [
@@ -184,7 +183,7 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Registrarse <span aria-hidden="true">&rarr;</span>
+              Ver cursos y talleres <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -470,7 +469,7 @@ export default function Example() {
               Cursos
             </h2>
             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Los cursos que tenemos para ti
+              Cursos destacados
             </p>
           </div>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
