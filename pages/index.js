@@ -335,11 +335,8 @@ export default function Example() {
         <div id="features" className="mt-32 sm:mt-56">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
-              <h2 className="text-base font-semibold leading-7 text-primary">
-                Mejorando la educación
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Train the teachers
+              <p className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                ¿Qué es Train the Teachers?
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Un programa de actualización tecnológica basado en la
