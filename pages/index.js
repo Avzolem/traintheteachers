@@ -18,9 +18,11 @@ import {
 } from "@heroicons/react/20/solid";
 
 const navigation = [
-  { name: "Features", href: "#features" },
-  { name: "Testimonios", href: "#testimonios" },
-  { name: "Cursos", href: "#cursos" },
+  { name: "Acerca de", href: "#" },
+  { name: "¿Cómo funciona?", href: "#" },
+  { name: "Cursos y talleres", href: "#cursos" },
+  { name: "Solicita un curso", href: "#" },
+  { name: "Gestiona tus insignias", href: "#" },
 ];
 const features = [
   {
@@ -197,11 +199,7 @@ export default function Example() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Train the teachers</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <img className="h-8 w-auto" src="/images/logo.png" alt="" />
               </a>
               <button
                 type="button"
@@ -267,27 +265,29 @@ export default function Example() {
                 className="py-5"
               />
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-                  Comienza nuestra primer ronda de cursos.{" "}
-                  <a href="#" className="font-semibold text-white">
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    Más info <span aria-hidden="true">&rarr;</span>
-                  </a>
+                <div className="text-center">
+                  <h2 className="font-semibold text-5xl py-7">
+                    Crea experiencias innovadoras para tu clase
+                  </h2>
+                  <p className="mx-auto max-w-2xl">
+                    Diseña, construye e implementa experiencias de aprendizaje
+                    innovadoras utilizando las más nuevas tecnologías.
+                  </p>
                 </div>
               </div>
               <div className="text-center">
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                    className="rounded-3xl bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                   >
-                    Regístrate ahora
+                    Ver cursos
                   </a>
                   <a
                     href="#"
                     className="text-sm font-semibold leading-6 text-white"
                   >
-                    Más info <span aria-hidden="true">→</span>
+                    Conoce más <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
@@ -343,10 +343,14 @@ export default function Example() {
                 Train the teachers
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis.
+                Un programa de actualización tecnológica basado en la
+                microenseñanza, para generar soluciones innovadoras ante los
+                desafíos del aprendizaje del Siglo XXI. ¿Crees en el poder del
+                cambio y la creatividad?
               </p>
+              <button className="mt-8 bg-primary px-6 py-3 rounded-md text-white font-semibold shadow-sm hover:bg-softgray focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+                Toma tu primer curso
+              </button>
             </div>
           </div>
           <div className="relative overflow-hidden pt-16">
@@ -378,6 +382,11 @@ export default function Example() {
                 </div>
               ))}
             </dl>
+            <div className="flex justify-center pt-8">
+              <button className="mt-8 bg-primary px-6 py-3 rounded-md text-white font-semibold shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+                Toma tu primer curso
+              </button>
+            </div>
           </div>
         </div>
 
