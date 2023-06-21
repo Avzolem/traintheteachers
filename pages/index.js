@@ -310,8 +310,8 @@ export default function Example() {
                 height={48}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://res.cloudinary.com/djlx5smmq/image/upload/v1687191926/cudd_morado_letras-5972a2071571c3e2ac068de24f1c14876dec8ee683fb2597123ff91235903a49_cwizwm.png"
+                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+                src="/images/cudd.png"
                 alt="cudd"
                 width={158}
                 height={48}
