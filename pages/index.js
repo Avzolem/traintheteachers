@@ -462,27 +462,33 @@ export default function Example() {
             />
           </div>
           <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
-            <h2 className="text-base font-semibold leading-7 text-primary">
+            {/* <h2 className="text-base font-semibold leading-7 text-primary">
               Cursos
-            </h2>
+            </h2> */}
             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               Cursos destacados
             </p>
           </div>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-            Qui iusto aut est earum eos quae. Eligendi est at nam aliquid ad quo
-            reprehenderit in aliquid fugiat dolorum voluptatibus.
+            Tenemos para ti diferentes áreas de conocimiento, para que puedas
+            elegir el curso que más te guste y se acomode a tus necesidades como
+            docente.
           </p>
-          <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+          <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
             <img
-              src="/images/poster1.png"
+              src="/images/ejemplo-curso1.png"
               alt="Course 1"
-              className="w-full px-6"
+              className="w-full px-6 py-5"
             />
             <img
-              src="/images/poster3.png"
+              src="/images/ejemplo-curso2.png"
               alt="Course 2"
-              className="w-full px-6"
+              className="w-full px-6 py-5"
+            />
+            <img
+              src="/images/ejemplo-curso4.png"
+              alt="Course 2"
+              className="w-full px-6 py-5"
             />
           </div>
         </div>
