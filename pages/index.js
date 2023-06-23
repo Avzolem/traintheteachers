@@ -344,20 +344,23 @@ export default function Example() {
                 desafíos del aprendizaje del Siglo XXI. ¿Crees en el poder del
                 cambio y la creatividad?
               </p>
-              <button className="mt-8 bg-primary px-6 py-3 rounded-3xl text-white font-semibold shadow-sm hover:bg-softgray focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+              <button className="mt-8 bg-primary px-6 py-3 rounded-md text-white font-semibold shadow-sm hover:bg-softgray focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
                 Toma tu primer curso
               </button>
             </div>
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <img
-                src="https://images.unsplash.com/flagged/photo-1564445477052-8a3787406bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=868&q=80"
-                alt="App screenshot"
-                className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-                width={2432}
-                height={1442}
-              />
+              <div>
+                <img
+                  src="https://images.unsplash.com/flagged/photo-1564445477052-8a3787406bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=868&q=80"
+                  alt="App screenshot"
+                  className="mb-[-12%]  shadow-2xl ring-1 ring-gray-900/10"
+                  width={2432}
+                  height={1442}
+                />
+                <div class="absolute top-16 left-2 w-16 h-16 bg-gray-100 transform rotate-45 origin-top-right"></div>
+              </div>
               <div className="relative" aria-hidden="true">
                 <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
               </div>
@@ -379,7 +382,7 @@ export default function Example() {
               ))}
             </dl>
             <div className="flex justify-center pt-8">
-              <button className="mt-8 bg-primary px-6 py-3 rounded-3xl text-white font-semibold shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
+              <button className="mt-8 bg-primary px-6 py-3 rounded-md text-white font-semibold shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
                 Toma tu primer curso
               </button>
             </div>
@@ -403,13 +406,16 @@ export default function Example() {
             </div>
           </div>
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-            <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+            <div className="-mt-8 w-full  max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
               <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                 <img
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                  className="absolute  inset-0 h-full w-full  bg-gray-800 object-cover shadow-2xl  "
                   src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
                   alt=""
                 />
+                {/* <div class="absolute -top-3 -left-5 w-16 h-16 bg-gray-100 transform rotate-45 origin-top-right"></div> */}
+                <div class="absolute -top-3 -left-5 w-16 h-16 bg-gray-100 transform rotate-45 origin-top-right"></div>
+                {/* <div class="absolute -bottom-3 -right-5 w-16 h-16 bg-gray-100 transform rotate-45 origin-bottom-left"></div>{" "} */}
               </div>
             </div>
             <div className="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
