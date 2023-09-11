@@ -300,14 +300,13 @@ export default function Example() {
                             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                                 <div className="text-center">
                                     <h2 className="font-semibold text-5xl py-7">
-                                        Aprende a diseñar y construir
-                                        experiencias innovadoras para tu clase.
+                                        Diseña y construye experiencias
+                                        innovadoras para tu clase
                                     </h2>
                                     <p className="mx-auto max-w-2xl">
-                                        Talleres prácticos para innovar tu
-                                        práctica docente aprender con las
-                                        herramientas y metodologías más
-                                        actuales.
+                                        Talleres para innovar tu práctica
+                                        docente con las herramientas y
+                                        tecnologias más actuales.
                                     </p>
                                 </div>
                             </div>
@@ -380,15 +379,13 @@ export default function Example() {
                             <p className="mt-6 text-lg leading-8 text-gray-600">
                                 Train The Teachers (T3) es un programa de
                                 actualización tecnológica diseñado para docentes
-                                que quieren perfeccionar sus y habilidades
-                                tecnológicas para crear experiencias de
-                                aprendizaje innovadoras. T3 consta de rutas
-                                temáticas de aprendizaje, compuestas por
-                                talleres breves (entre 3 y 6 horas) que, una vez
-                                acreditadas, cuentan para la Beca de Estímulos
-                                al Desempeño Docente en la UACH. El programa es
-                                impartido por personal especializado de la
-                                Coordinación General de Tecnologías de
+                                que quieren perfeccionar sus habilidades
+                                tecnológicas. T3 ofrece rutas de aprendizaje
+                                compuestas por talleres breves (entre 3 y 6
+                                horas) que, una vez acreditadas, cuentan para la
+                                Beca de Estímulos al Desempeño Docente en la
+                                UACH. El programa es impartido por expertos de
+                                la Coordinación General de Tecnologías de
                                 Información y se ofrece en conjunto con el
                                 Centro Universitario para el Desarrollo Docente.
                                 ¡Súmate al reto de innovar con tecnologías para
@@ -541,9 +538,8 @@ export default function Example() {
                         </p>
                     </div>
                     <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-                        Te invitamos a desarrollar tus habilidades tecnológicas
-                        y creativas cursando los siguientes talleres; haz click
-                        para conocerlos a detalle.
+                        Desarrolla tus habilidades tecnológicas y creativas
+                        cursando los siguientes talleres:
                     </p>
                     <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
                         <img
